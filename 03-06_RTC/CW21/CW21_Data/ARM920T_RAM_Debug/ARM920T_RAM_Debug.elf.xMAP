@@ -1,0 +1,435 @@
+# Link map of _start
+  1] __ptmf_null (object,global) found in ARM_Runtime_LE.a cxxabi_ptmf.o  
+  1] errno (object,global) found in MSL_C_ARM_LE.a errno.o        
+  1] unused (object,local) found in MSL_C_ARM_LE.a float.o        
+  1] __float_huge (object,global) found in MSL_C_ARM_LE.a float.o        
+  1] __float_max (object,global) found in MSL_C_ARM_LE.a float.o        
+  1] __float_min (object,global) found in MSL_C_ARM_LE.a float.o        
+  1] __float_nan (object,global) found in MSL_C_ARM_LE.a float.o        
+  1] __float_epsilon (object,global) found in MSL_C_ARM_LE.a float.o        
+  1] __extended_epsilon (object,global) found in MSL_C_ARM_LE.a float.o        
+  1] __double_tiny (object,global) found in MSL_C_ARM_LE.a float.o        
+  1] __extended_tiny (object,global) found in MSL_C_ARM_LE.a float.o        
+  1] __double_huge (object,global) found in MSL_C_ARM_LE.a float.o        
+  1] __double_nan (object,global) found in MSL_C_ARM_LE.a float.o        
+  1] __double_epsilon (object,global) found in MSL_C_ARM_LE.a float.o        
+  1] __double_max (object,global) found in MSL_C_ARM_LE.a float.o        
+  1] __double_min (object,global) found in MSL_C_ARM_LE.a float.o        
+  1] __extended_huge (object,global) found in MSL_C_ARM_LE.a float.o        
+  1] __extended_min (object,global) found in MSL_C_ARM_LE.a float.o        
+  1] __extended_max (object,global) found in MSL_C_ARM_LE.a float.o        
+  1] __extended_nan (object,global) found in MSL_C_ARM_LE.a float.o        
+  1] @23 (object,local) found in MSL_C_ARM_LE.a locale.o       
+  1] @20 (object,local) found in MSL_C_ARM_LE.a locale.o       
+  1] @16 (object,local) found in MSL_C_ARM_LE.a locale.o       
+  1] @19 (object,local) found in MSL_C_ARM_LE.a locale.o       
+  1] @18 (object,local) found in MSL_C_ARM_LE.a locale.o       
+  1] @17 (object,local) found in MSL_C_ARM_LE.a locale.o       
+  1] @22 (object,local) found in MSL_C_ARM_LE.a locale.o       
+  1] @21 (object,local) found in MSL_C_ARM_LE.a locale.o       
+  1] _loc_ctyp_C (object,global) found in MSL_C_ARM_LE.a locale.o       
+   2] __wctomb_noconv (func,global) found in MSL_C_ARM_LE.a mbstring.o     
+   2] __mbtowc_noconv (func,global) found in MSL_C_ARM_LE.a mbstring.o     
+  1] _current_locale (object,global) found in MSL_C_ARM_LE.a locale.o       
+   2] _loc_coll_C (object,global) found in MSL_C_ARM_LE.a locale.o       
+    3] char_coll_tableC (object,global) found in MSL_C_ARM_LE.a locale.o       
+   2] _loc_tim_C (object,global) found in MSL_C_ARM_LE.a locale.o       
+  1] signgam (object,global) found in MSL_C_ARM_LE.a s_signgam.o    
+  1] _fdlib_version (object,global) found in MSL_C_ARM_LE.a s_lib_version.o
+  1] _start (notype,global) found in crt0.s 
+   2] Main (func,global) found in Main.c 
+    3] Uart_Init (func,global) found in Uart.c 
+     4] vsprintf (func,global) found in MSL_C_ARM_LE.a printf.o       
+      5] vsnprintf (func,global) found in MSL_C_ARM_LE.a printf.o       
+       6] __pformatter (func,local) found in MSL_C_ARM_LE.a printf.o       
+        7] strchr (func,global) found in MSL_C_ARM_LE.a string.o       
+        7] strlen (func,global) found in MSL_C_ARM_LE.a string.o       
+        7] parse_format (func,local) found in MSL_C_ARM_LE.a printf.o       
+         8] isdigit (func,overload) found in MSL_C_ARM_LE.a ctype.o        
+          9] __ctype_mapC (object,global) found in MSL_C_ARM_LE.a ctype.o        
+        7] longlong2str (func,local) found in MSL_C_ARM_LE.a printf.o       
+         8] set_base (func,local) found in MSL_C_ARM_LE.a printf.o       
+         8] _ull_mod (notype,global) found in FP_fastI_v4t_LE.a _ll_div.o      
+          9] _s32_div_f (notype,global) found in FP_fastI_v4t_LE.a _s32_div_f.o   
+          9] _u32_div_not_0_f (notype,global) found in FP_fastI_v4t_LE.a _u32_div_f.o   
+         8] justify_conversion (func,local) found in MSL_C_ARM_LE.a printf.o       
+        7] long2str (func,local) found in MSL_C_ARM_LE.a printf.o       
+        7] float2str (func,local) found in MSL_C_ARM_LE.a printf.o       
+         8] __num2dec (func,global) found in MSL_C_ARM_LE.a ansi_fp.o      
+          9] __num2dec_internal (func,local) found in MSL_C_ARM_LE.a ansi_fp.o      
+           10] _deq (notype,global) found in FP_fastI_v4t_LE.a _f_cmp.o       
+           10] __fpclassifyd (func,global) found in MSL_C_ARM_LE.a math_api.o     
+           10] _dsub (notype,global) found in FP_fastI_v4t_LE.a _d_sub.o       
+            11] __dadd_start (notype,global) found in FP_fastI_v4t_LE.a _d_add.o       
+             12] __dsub_start (notype,global) found in FP_fastI_v4t_LE.a _d_sub.o       
+           10] frexp (func,global) found in MSL_C_ARM_LE.a s_frexp.o      
+            11] _dmul (notype,global) found in FP_fastI_v4t_LE.a _d_mul.o       
+           10] __msl_count_trailing_zero_double (func,local) found in MSL_C_ARM_LE.a ansi_fp.o      
+            11] __msl_count_trailing_zero64 (func,overload) found in MSL_C_ARM_LE.a math_arm.o     
+             12] __msl_count_bits64 (func,overload) found in MSL_C_ARM_LE.a math_arm.o     
+              13] __msl_generic_count_bits64 (func,global) found in MSL_C_ARM_LE.a math_api.o     
+           10] __two_exp (func,local) found in MSL_C_ARM_LE.a ansi_fp.o      
+            11] __str2dec (func,local) found in MSL_C_ARM_LE.a ansi_fp.o      
+             12] __dorounddecup (func,local) found in MSL_C_ARM_LE.a ansi_fp.o      
+            11] __timesdec (func,local) found in MSL_C_ARM_LE.a ansi_fp.o      
+            11] @939 (object,local) found in MSL_C_ARM_LE.a ansi_fp.o      
+            11] @940 (object,local) found in MSL_C_ARM_LE.a ansi_fp.o      
+            11] @941 (object,local) found in MSL_C_ARM_LE.a ansi_fp.o      
+           10] ldexp (func,global) found in MSL_C_ARM_LE.a s_ldexp.o      
+            11] copysign (func,global) found in MSL_C_ARM_LE.a s_copysign.o   
+           10] _ll_ufrom_d (notype,global) found in FP_fastI_v4t_LE.a _d_dtoull.o    
+           10] __ull2dec (func,local) found in MSL_C_ARM_LE.a ansi_fp.o      
+          9] __rounddec (func,local) found in MSL_C_ARM_LE.a ansi_fp.o      
+           10] __must_round (func,local) found in MSL_C_ARM_LE.a ansi_fp.o      
+         8] isupper (func,overload) found in MSL_C_ARM_LE.a ctype.o        
+         8] strcpy (func,global) found in MSL_C_ARM_LE.a string.o       
+         8] round_decimal (func,local) found in MSL_C_ARM_LE.a printf.o       
+         8] @1325 (object,local) found in MSL_C_ARM_LE.a printf.o       
+         8] @1326 (object,local) found in MSL_C_ARM_LE.a printf.o       
+         8] @1327 (object,local) found in MSL_C_ARM_LE.a printf.o       
+         8] @1328 (object,local) found in MSL_C_ARM_LE.a printf.o       
+         8] @1329 (object,local) found in MSL_C_ARM_LE.a printf.o       
+         8] @1330 (object,local) found in MSL_C_ARM_LE.a printf.o       
+         8] @1331 (object,local) found in MSL_C_ARM_LE.a printf.o       
+         8] @1332 (object,local) found in MSL_C_ARM_LE.a printf.o       
+        7] double2hex (func,local) found in MSL_C_ARM_LE.a printf.o       
+         8] fabsl (func,overload) found in MSL_C_ARM_LE.a math_arm.o     
+          9] fabs (func,global) found in MSL_C_ARM_LE.a s_fabs.o       
+         8] @1510 (object,local) found in MSL_C_ARM_LE.a printf.o       
+        7] wcstombs (func,global) found in MSL_C_ARM_LE.a mbstring.o     
+         8] wctomb (func,global) found in MSL_C_ARM_LE.a mbstring.o     
+         8] strncpy (func,global) found in MSL_C_ARM_LE.a string.o       
+        7] memchr (func,global) found in MSL_C_ARM_LE.a mem.o          
+        7] @1120 (object,local) found in MSL_C_ARM_LE.a printf.o       
+        7] @1121 (object,local) found in MSL_C_ARM_LE.a printf.o       
+       6] __StringWrite (func,global) found in MSL_C_ARM_LE.a printf.o       
+        7] memcpy (func,global) found in MSL_C_ARM_LE.a mem.o          
+     4] _dflt (notype,global) found in FP_fastI_v4t_LE.a _d_itod.o      
+     4] _dfixu (notype,global) found in FP_fastI_v4t_LE.a _d_dtou.o      
+    3] @EX@Uart_Get_Char (object,local) found in Uart.c 
+    3] @EX@Uart_Send_Byte (object,local) found in Uart.c 
+    3] @EX@Uart_Printf (object,local) found in Uart.c 
+     4] @ET@Uart_Printf (object,local) found in Uart.c 
+    3] @EX@Uart_Send_String (object,local) found in Uart.c 
+    3] @EX@Uart_Init (object,local) found in Uart.c 
+    3] Timer_Init (func,global) found in Timer.c 
+     4] @63 (object,local) found in Timer.c 
+    3] @EX@Timer_Init (object,local) found in Timer.c 
+    3] @EX@RTC_Isr (object,local) found in Timer.c 
+    3] @EX@Timer_Delay (object,local) found in Timer.c 
+    3] @EX@RTC_ISR_Init (object,local) found in Timer.c 
+    3] @EX@RTC_TimeSet (object,local) found in Timer.c 
+    3] @EX@RTC_Alarm_Set (object,local) found in Timer.c 
+    3] @EX@RTC_Alarm_Mode_Set (object,local) found in Timer.c 
+    3] @15 (object,local) found in Main.c 
+   2] @EX@Main (object,local) found in Main.c 
+
+# Unreferenced symbols:
+
+
+
+# .app_text
+  30000000 00000000 Init    $a	(crt0.s)
+  30000000 00000178 Init    Init	(crt0.s)
+  30000000 00000000 Init    _start	(crt0.s)
+  3000010C 00000000 Init    $d	(crt0.s)
+  30000178 00000000 .text   $a	(Main.c)
+  30000178 00000000 .text   .text	(Main.c)
+  30000178 00000064 .text   Main	(Main.c)
+  300001C4 00000000 .text   $d	(Main.c)
+  300001DC 00000000 .text   .text	(Uart.c)
+  300001DC 00000000 .text   $a	(Uart.c)
+  300001DC 00000020 .text   Uart_Get_Char	(Uart.c)
+  300001FC 00000000 .text   $a	(Uart.c)
+  300001FC 0000005C .text   Uart_Send_Byte	(Uart.c)
+  30000258 00000000 .text   $a	(Uart.c)
+  30000258 00000040 .text   Uart_Printf	(Uart.c)
+  30000298 0000002C .text   Uart_Send_String	(Uart.c)
+  30000298 00000000 .text   $a	(Uart.c)
+  300002C4 00000104 .text   Uart_Init	(Uart.c)
+  300002C4 00000000 .text   $a	(Uart.c)
+  300003A8 00000000 .text   $d	(Uart.c)
+  300003C8 00000000 .text   $a	(Timer.c)
+  300003C8 00000000 .text   .text	(Timer.c)
+  300003C8 00000040 .text   Timer_Init	(Timer.c)
+  30000408 00000054 .text   RTC_Isr	(Timer.c)
+  30000408 00000000 .text   $a	(Timer.c)
+  3000045C 00000000 .text   $a	(Timer.c)
+  3000045C 00000084 .text   Timer_Delay	(Timer.c)
+  300004E0 000000C0 .text   RTC_ISR_Init	(Timer.c)
+  300004E0 00000000 .text   $a	(Timer.c)
+  300005A0 000000F4 .text   RTC_TimeSet	(Timer.c)
+  300005A0 00000000 .text   $a	(Timer.c)
+  30000694 000000F4 .text   RTC_Alarm_Set	(Timer.c)
+  30000694 00000000 .text   $a	(Timer.c)
+  30000788 00000000 .text   $a	(Timer.c)
+  30000788 00000214 .text   RTC_Alarm_Mode_Set	(Timer.c)
+  30000944 00000000 .text   $d	(Timer.c)
+  3000099C 00000000 .text   $a	(FP_fastI_v4t_LE.a _d_add.o       )
+  3000099C 00000318 .text   .text	(FP_fastI_v4t_LE.a _d_add.o       )
+  3000099C 00000000 .text   _d_add	(FP_fastI_v4t_LE.a _d_add.o       )
+  3000099C 00000000 .text   _dadd	(FP_fastI_v4t_LE.a _d_add.o       )
+  300009AC 00000000 .text   __dadd_start	(FP_fastI_v4t_LE.a _d_add.o       )
+  30000CB0 00000000 .text   $d	(FP_fastI_v4t_LE.a _d_add.o       )
+  30000CB4 00000000 .text   $a	(FP_fastI_v4t_LE.a _d_dtou.o      )
+  30000CB4 00000058 .text   .text	(FP_fastI_v4t_LE.a _d_dtou.o      )
+  30000CB4 00000000 .text   _d_dtou	(FP_fastI_v4t_LE.a _d_dtou.o      )
+  30000CB4 00000000 .text   _dfixu	(FP_fastI_v4t_LE.a _d_dtou.o      )
+  30000D08 00000000 .text   $d	(FP_fastI_v4t_LE.a _d_dtou.o      )
+  30000D0C 00000000 .text   $a	(FP_fastI_v4t_LE.a _d_dtoull.o    )
+  30000D0C 0000008C .text   .text	(FP_fastI_v4t_LE.a _d_dtoull.o    )
+  30000D0C 00000000 .text   _d_dtoull	(FP_fastI_v4t_LE.a _d_dtoull.o    )
+  30000D0C 00000000 .text   _ll_ufrom_d	(FP_fastI_v4t_LE.a _d_dtoull.o    )
+  30000D94 00000000 .text   $d	(FP_fastI_v4t_LE.a _d_dtoull.o    )
+  30000D98 000000DC .text   .text	(FP_fastI_v4t_LE.a _d_itod.o      )
+  30000D98 00000000 .text   _dfltu	(FP_fastI_v4t_LE.a _d_itod.o      )
+  30000D98 00000000 .text   $a	(FP_fastI_v4t_LE.a _d_itod.o      )
+  30000D98 00000000 .text   _d_utod	(FP_fastI_v4t_LE.a _d_itod.o      )
+  30000D9C 00000000 .text   __d_utod_common	(FP_fastI_v4t_LE.a _d_itod.o      )
+  30000E04 00000000 .text   _d_itod	(FP_fastI_v4t_LE.a _d_itod.o      )
+  30000E04 00000000 .text   _dflt	(FP_fastI_v4t_LE.a _d_itod.o      )
+  30000E10 00000000 .text   __d_itod_common	(FP_fastI_v4t_LE.a _d_itod.o      )
+  30000E74 00000000 .text   $a	(FP_fastI_v4t_LE.a _d_mul.o       )
+  30000E74 000003CC .text   .text	(FP_fastI_v4t_LE.a _d_mul.o       )
+  30000E74 00000000 .text   _d_mul	(FP_fastI_v4t_LE.a _d_mul.o       )
+  30000E74 00000000 .text   _dmul	(FP_fastI_v4t_LE.a _d_mul.o       )
+  3000123C 00000000 .text   $d	(FP_fastI_v4t_LE.a _d_mul.o       )
+  30001240 00000000 .text   _drsb	(FP_fastI_v4t_LE.a _d_sub.o       )
+  30001240 00000434 .text   .text	(FP_fastI_v4t_LE.a _d_sub.o       )
+  30001240 00000000 .text   $a	(FP_fastI_v4t_LE.a _d_sub.o       )
+  30001258 00000000 .text   _dsub	(FP_fastI_v4t_LE.a _d_sub.o       )
+  30001258 00000000 .text   _d_sub	(FP_fastI_v4t_LE.a _d_sub.o       )
+  30001268 00000000 .text   __dsub_start	(FP_fastI_v4t_LE.a _d_sub.o       )
+  30001670 00000000 .text   $d	(FP_fastI_v4t_LE.a _d_sub.o       )
+  30001674 00000000 .text   _f_cmp	(FP_fastI_v4t_LE.a _f_cmp.o       )
+  30001674 00000994 .text   .text	(FP_fastI_v4t_LE.a _f_cmp.o       )
+  30001674 00000000 .text   $a	(FP_fastI_v4t_LE.a _f_cmp.o       )
+  300016BC 00000000 .text   _f_cmpe	(FP_fastI_v4t_LE.a _f_cmp.o       )
+  300016FC 00000000 .text   _fneq	(FP_fastI_v4t_LE.a _f_cmp.o       )
+  300016FC 00000000 .text   _f_fne	(FP_fastI_v4t_LE.a _f_cmp.o       )
+  30001738 00000000 .text   _feq	(FP_fastI_v4t_LE.a _f_cmp.o       )
+  30001738 00000000 .text   _f_feq	(FP_fastI_v4t_LE.a _f_cmp.o       )
+  30001774 00000000 .text   _fcmpeq	(FP_fastI_v4t_LE.a _f_cmp.o       )
+  300017AC 00000000 .text   _fls	(FP_fastI_v4t_LE.a _f_cmp.o       )
+  300017AC 00000000 .text   _f_flt	(FP_fastI_v4t_LE.a _f_cmp.o       )
+  300017E8 00000000 .text   _fleq	(FP_fastI_v4t_LE.a _f_cmp.o       )
+  300017E8 00000000 .text   _f_fle	(FP_fastI_v4t_LE.a _f_cmp.o       )
+  30001824 00000000 .text   _fcmple	(FP_fastI_v4t_LE.a _f_cmp.o       )
+  30001868 00000000 .text   _fgr	(FP_fastI_v4t_LE.a _f_cmp.o       )
+  30001868 00000000 .text   _f_fgt	(FP_fastI_v4t_LE.a _f_cmp.o       )
+  300018A4 00000000 .text   _f_fge	(FP_fastI_v4t_LE.a _f_cmp.o       )
+  300018A4 00000000 .text   _fgeq	(FP_fastI_v4t_LE.a _f_cmp.o       )
+  300018E0 00000000 .text   _fcmpge	(FP_fastI_v4t_LE.a _f_cmp.o       )
+  3000191C 00000000 .text   _f_fun	(FP_fastI_v4t_LE.a _f_cmp.o       )
+  30001940 00000000 .text   _f_for	(FP_fastI_v4t_LE.a _f_cmp.o       )
+  30001964 00000000 .text   _d_cmp	(FP_fastI_v4t_LE.a _f_cmp.o       )
+  300019F4 00000000 .text   _d_cmpe	(FP_fastI_v4t_LE.a _f_cmp.o       )
+  30001A84 00000000 .text   _dneq	(FP_fastI_v4t_LE.a _f_cmp.o       )
+  30001A84 00000000 .text   _d_fne	(FP_fastI_v4t_LE.a _f_cmp.o       )
+  30001B0C 00000000 .text   _deq	(FP_fastI_v4t_LE.a _f_cmp.o       )
+  30001B0C 00000000 .text   _d_feq	(FP_fastI_v4t_LE.a _f_cmp.o       )
+  30001B94 00000000 .text   _dcmpeq	(FP_fastI_v4t_LE.a _f_cmp.o       )
+  30001C18 00000000 .text   _dls	(FP_fastI_v4t_LE.a _f_cmp.o       )
+  30001C18 00000000 .text   _d_flt	(FP_fastI_v4t_LE.a _f_cmp.o       )
+  30001CA0 00000000 .text   _dleq	(FP_fastI_v4t_LE.a _f_cmp.o       )
+  30001CA0 00000000 .text   _d_fle	(FP_fastI_v4t_LE.a _f_cmp.o       )
+  30001D28 00000000 .text   _dcmple	(FP_fastI_v4t_LE.a _f_cmp.o       )
+  30001DC0 00000000 .text   _dgr	(FP_fastI_v4t_LE.a _f_cmp.o       )
+  30001DC0 00000000 .text   _d_fgt	(FP_fastI_v4t_LE.a _f_cmp.o       )
+  30001E48 00000000 .text   _d_fge	(FP_fastI_v4t_LE.a _f_cmp.o       )
+  30001E48 00000000 .text   _dgeq	(FP_fastI_v4t_LE.a _f_cmp.o       )
+  30001ED0 00000000 .text   _dcmpge	(FP_fastI_v4t_LE.a _f_cmp.o       )
+  30001F68 00000000 .text   _d_fun	(FP_fastI_v4t_LE.a _f_cmp.o       )
+  30001FB8 00000000 .text   _d_for	(FP_fastI_v4t_LE.a _f_cmp.o       )
+  30002008 00000000 .text   _ll_udiv	(FP_fastI_v4t_LE.a _ll_div.o      )
+  30002008 00000000 .text   _ull_div	(FP_fastI_v4t_LE.a _ll_div.o      )
+  30002008 00000208 .text   .text	(FP_fastI_v4t_LE.a _ll_div.o      )
+  30002008 00000000 .text   $a	(FP_fastI_v4t_LE.a _ll_div.o      )
+  30002014 00000000 .text   _ull_mod	(FP_fastI_v4t_LE.a _ll_div.o      )
+  30002050 00000000 .text   _ll_mod	(FP_fastI_v4t_LE.a _ll_div.o      )
+  30002060 00000000 .text   _ll_div	(FP_fastI_v4t_LE.a _ll_div.o      )
+  30002060 00000000 .text   _ll_sdiv	(FP_fastI_v4t_LE.a _ll_div.o      )
+  30002210 0000020C .text   .text	(FP_fastI_v4t_LE.a _s32_div_f.o   )
+  30002210 00000000 .text   _s32_div_f	(FP_fastI_v4t_LE.a _s32_div_f.o   )
+  30002210 00000000 .text   $a	(FP_fastI_v4t_LE.a _s32_div_f.o   )
+  3000241C 00000000 .text   $a	(FP_fastI_v4t_LE.a _u32_div_f.o   )
+  3000241C 00000000 .text   _u32_div_f	(FP_fastI_v4t_LE.a _u32_div_f.o   )
+  3000241C 000001E4 .text   .text	(FP_fastI_v4t_LE.a _u32_div_f.o   )
+  30002424 00000000 .text   _u32_div_not_0_f	(FP_fastI_v4t_LE.a _u32_div_f.o   )
+  30002600 00000000 .text   $a	(MSL_C_ARM_LE.a ctype.o        )
+  30002600 00000030 .text   isupper	(MSL_C_ARM_LE.a ctype.o        )
+  3000262C 00000000 .text   $d	(MSL_C_ARM_LE.a ctype.o        )
+  30002630 00000000 .text   $a	(MSL_C_ARM_LE.a ctype.o        )
+  30002630 00000030 .text   isdigit	(MSL_C_ARM_LE.a ctype.o        )
+  3000265C 00000000 .text   $d	(MSL_C_ARM_LE.a ctype.o        )
+  30002660 0000008C .text   wcstombs	(MSL_C_ARM_LE.a mbstring.o     )
+  30002660 00000000 .text   $a	(MSL_C_ARM_LE.a mbstring.o     )
+  300026EC 00000000 .text   $a	(MSL_C_ARM_LE.a mbstring.o     )
+  300026EC 00000028 .text   wctomb	(MSL_C_ARM_LE.a mbstring.o     )
+  30002710 00000000 .text   $d	(MSL_C_ARM_LE.a mbstring.o     )
+  30002714 00000014 .text   __wctomb_noconv	(MSL_C_ARM_LE.a mbstring.o     )
+  30002714 00000000 .text   $a	(MSL_C_ARM_LE.a mbstring.o     )
+  30002728 00000038 .text   __mbtowc_noconv	(MSL_C_ARM_LE.a mbstring.o     )
+  30002728 00000000 .text   $a	(MSL_C_ARM_LE.a mbstring.o     )
+  30002760 0000002C .text   memchr	(MSL_C_ARM_LE.a mem.o          )
+  30002760 00000000 .text   $a	(MSL_C_ARM_LE.a mem.o          )
+  3000278C 00000020 .text   memcpy	(MSL_C_ARM_LE.a mem.o          )
+  3000278C 00000000 .text   $a	(MSL_C_ARM_LE.a mem.o          )
+  300027AC 00000014 .text   vsprintf	(MSL_C_ARM_LE.a printf.o       )
+  300027AC 00000000 .text   $a	(MSL_C_ARM_LE.a printf.o       )
+  300027C0 00000000 .text   $a	(MSL_C_ARM_LE.a printf.o       )
+  300027C0 00000060 .text   vsnprintf	(MSL_C_ARM_LE.a printf.o       )
+  3000281C 00000000 .text   $d	(MSL_C_ARM_LE.a printf.o       )
+  30002820 00000050 .text   __StringWrite	(MSL_C_ARM_LE.a printf.o       )
+  30002820 00000000 .text   $a	(MSL_C_ARM_LE.a printf.o       )
+  30002870 00000000 .text   $a	(MSL_C_ARM_LE.a printf.o       )
+  30002870 00000798 .text   __pformatter	(MSL_C_ARM_LE.a printf.o       )
+  30003000 00000000 .text   $d	(MSL_C_ARM_LE.a printf.o       )
+  30003008 00000000 .text   $a	(MSL_C_ARM_LE.a printf.o       )
+  30003008 000005AC .text   float2str	(MSL_C_ARM_LE.a printf.o       )
+  30003590 00000000 .text   $d	(MSL_C_ARM_LE.a printf.o       )
+  300035B4 00000120 .text   round_decimal	(MSL_C_ARM_LE.a printf.o       )
+  300035B4 00000000 .text   $a	(MSL_C_ARM_LE.a printf.o       )
+  300036D4 00000000 .text   $a	(MSL_C_ARM_LE.a printf.o       )
+  300036D4 00000368 .text   double2hex	(MSL_C_ARM_LE.a printf.o       )
+  30003A0C 00000000 .text   $d	(MSL_C_ARM_LE.a printf.o       )
+  30003A3C 00000154 .text   longlong2str	(MSL_C_ARM_LE.a printf.o       )
+  30003A3C 00000000 .text   $a	(MSL_C_ARM_LE.a printf.o       )
+  30003B90 00000110 .text   long2str	(MSL_C_ARM_LE.a printf.o       )
+  30003B90 00000000 .text   $a	(MSL_C_ARM_LE.a printf.o       )
+  30003CA0 00000000 .text   $a	(MSL_C_ARM_LE.a printf.o       )
+  30003CA0 000000FC .text   justify_conversion	(MSL_C_ARM_LE.a printf.o       )
+  30003D98 00000000 .text   $d	(MSL_C_ARM_LE.a printf.o       )
+  30003D9C 00000058 .text   set_base	(MSL_C_ARM_LE.a printf.o       )
+  30003D9C 00000000 .text   $a	(MSL_C_ARM_LE.a printf.o       )
+  30003DF4 00000000 .text   $a	(MSL_C_ARM_LE.a printf.o       )
+  30003DF4 00000598 .text   parse_format	(MSL_C_ARM_LE.a printf.o       )
+  30004388 00000000 .text   $d	(MSL_C_ARM_LE.a printf.o       )
+  3000438C 00000030 .text   strchr	(MSL_C_ARM_LE.a string.o       )
+  3000438C 00000000 .text   $a	(MSL_C_ARM_LE.a string.o       )
+  300043BC 00000054 .text   strncpy	(MSL_C_ARM_LE.a string.o       )
+  300043BC 00000000 .text   $a	(MSL_C_ARM_LE.a string.o       )
+  30004410 00000000 .text   $a	(MSL_C_ARM_LE.a string.o       )
+  30004410 000000CC .text   strcpy	(MSL_C_ARM_LE.a string.o       )
+  300044D4 00000000 .text   $d	(MSL_C_ARM_LE.a string.o       )
+  300044DC 0000001C .text   strlen	(MSL_C_ARM_LE.a string.o       )
+  300044DC 00000000 .text   $a	(MSL_C_ARM_LE.a string.o       )
+  300044F8 00000028 .text   copysign	(MSL_C_ARM_LE.a s_copysign.o   )
+  300044F8 00000000 .text   $a	(MSL_C_ARM_LE.a s_copysign.o   )
+  30004520 00000028 .text   fabs	(MSL_C_ARM_LE.a s_fabs.o       )
+  30004520 00000000 .text   $a	(MSL_C_ARM_LE.a s_fabs.o       )
+  30004548 00000000 .text   $a	(MSL_C_ARM_LE.a s_frexp.o      )
+  30004548 000000B8 .text   frexp	(MSL_C_ARM_LE.a s_frexp.o      )
+  300045EC 00000000 .text   $d	(MSL_C_ARM_LE.a s_frexp.o      )
+  30004600 00000000 .text   $a	(MSL_C_ARM_LE.a s_ldexp.o      )
+  30004600 0000021C .text   ldexp	(MSL_C_ARM_LE.a s_ldexp.o      )
+  300047EC 00000000 .text   $d	(MSL_C_ARM_LE.a s_ldexp.o      )
+  3000481C 00000004 .text   fabsl	(MSL_C_ARM_LE.a math_arm.o     )
+  3000481C 00000000 .text   $a	(MSL_C_ARM_LE.a math_arm.o     )
+  30004820 00000020 .text   __msl_count_trailing_zero64	(MSL_C_ARM_LE.a math_arm.o     )
+  30004820 00000000 .text   $a	(MSL_C_ARM_LE.a math_arm.o     )
+  30004840 00000004 .text   __msl_count_bits64	(MSL_C_ARM_LE.a math_arm.o     )
+  30004840 00000000 .text   $a	(MSL_C_ARM_LE.a math_arm.o     )
+  30004844 000000AC .text   __num2dec	(MSL_C_ARM_LE.a ansi_fp.o      )
+  30004844 00000000 .text   $a	(MSL_C_ARM_LE.a ansi_fp.o      )
+  300048F0 0000014C .text   __num2dec_internal	(MSL_C_ARM_LE.a ansi_fp.o      )
+  300048F0 00000000 .text   $a	(MSL_C_ARM_LE.a ansi_fp.o      )
+  30004A3C 00000030 .text   __msl_count_trailing_zero_double	(MSL_C_ARM_LE.a ansi_fp.o      )
+  30004A3C 00000000 .text   $a	(MSL_C_ARM_LE.a ansi_fp.o      )
+  30004A6C 00000000 .text   $a	(MSL_C_ARM_LE.a ansi_fp.o      )
+  30004A6C 000000F4 .text   __two_exp	(MSL_C_ARM_LE.a ansi_fp.o      )
+  30004B54 00000000 .text   $d	(MSL_C_ARM_LE.a ansi_fp.o      )
+  30004B60 000000A4 .text   __str2dec	(MSL_C_ARM_LE.a ansi_fp.o      )
+  30004B60 00000000 .text   $a	(MSL_C_ARM_LE.a ansi_fp.o      )
+  30004C04 00000188 .text   __timesdec	(MSL_C_ARM_LE.a ansi_fp.o      )
+  30004C04 00000000 .text   $a	(MSL_C_ARM_LE.a ansi_fp.o      )
+  30004D8C 000000BC .text   __ull2dec	(MSL_C_ARM_LE.a ansi_fp.o      )
+  30004D8C 00000000 .text   $a	(MSL_C_ARM_LE.a ansi_fp.o      )
+  30004E48 00000048 .text   __rounddec	(MSL_C_ARM_LE.a ansi_fp.o      )
+  30004E48 00000000 .text   $a	(MSL_C_ARM_LE.a ansi_fp.o      )
+  30004E90 00000054 .text   __dorounddecup	(MSL_C_ARM_LE.a ansi_fp.o      )
+  30004E90 00000000 .text   $a	(MSL_C_ARM_LE.a ansi_fp.o      )
+  30004EE4 0000006C .text   __must_round	(MSL_C_ARM_LE.a ansi_fp.o      )
+  30004EE4 00000000 .text   $a	(MSL_C_ARM_LE.a ansi_fp.o      )
+  30004F50 00000000 .text   $a	(MSL_C_ARM_LE.a math_api.o     )
+  30004F50 00000080 .text   __fpclassifyd	(MSL_C_ARM_LE.a math_api.o     )
+  30004FC8 00000000 .text   $d	(MSL_C_ARM_LE.a math_api.o     )
+  30004FD0 00000000 .text   $a	(MSL_C_ARM_LE.a math_api.o     )
+  30004FD0 000000A0 .text   __msl_generic_count_bits64	(MSL_C_ARM_LE.a math_api.o     )
+  30005064 00000000 .text   $d	(MSL_C_ARM_LE.a math_api.o     )
+#>30005070          Image$$RO$$Limit (linker command file)
+
+# .app_data
+#>30005070          Image$$RW$$Base (linker command file)
+  30005070 00000008 .rodata __ptmf_null	(ARM_Runtime_LE.a cxxabi_ptmf.o  )
+  30005078 00000100 .rodata __ctype_mapC	(MSL_C_ARM_LE.a ctype.o        )
+  30005178 00000022 .data   @15	(Main.c)
+  30005178 00000000 .data   .data	(Main.c)
+  3000519A 00000010 .data   @16	(Main.c)
+  300051AA 00000015 .data   @63	(Timer.c)
+  300051AA 00000000 .data   .data	(Timer.c)
+  300051C0 00000004 .data   __float_huge	(MSL_C_ARM_LE.a float.o        )
+  300051C4 00000004 .data   __float_max	(MSL_C_ARM_LE.a float.o        )
+  300051C8 00000004 .data   __float_min	(MSL_C_ARM_LE.a float.o        )
+  300051CC 00000004 .data   __float_nan	(MSL_C_ARM_LE.a float.o        )
+  300051D0 00000004 .data   __float_epsilon	(MSL_C_ARM_LE.a float.o        )
+  300051D4 00000008 .data   __extended_epsilon	(MSL_C_ARM_LE.a float.o        )
+  300051DC 00000008 .data   __double_tiny	(MSL_C_ARM_LE.a float.o        )
+  300051E4 00000008 .data   __extended_tiny	(MSL_C_ARM_LE.a float.o        )
+  300051EC 00000008 .data   __double_huge	(MSL_C_ARM_LE.a float.o        )
+  300051F4 00000008 .data   __double_nan	(MSL_C_ARM_LE.a float.o        )
+  300051FC 00000008 .data   __double_epsilon	(MSL_C_ARM_LE.a float.o        )
+  30005204 00000008 .data   __double_max	(MSL_C_ARM_LE.a float.o        )
+  3000520C 00000008 .data   __double_min	(MSL_C_ARM_LE.a float.o        )
+  30005214 00000008 .data   __extended_huge	(MSL_C_ARM_LE.a float.o        )
+  3000521C 00000008 .data   __extended_min	(MSL_C_ARM_LE.a float.o        )
+  30005224 00000008 .data   __extended_max	(MSL_C_ARM_LE.a float.o        )
+  3000522C 00000008 .data   __extended_nan	(MSL_C_ARM_LE.a float.o        )
+  30005234 00000001 .data   @23	(MSL_C_ARM_LE.a locale.o       )
+  30005235 00000003 .data   @20	(MSL_C_ARM_LE.a locale.o       )
+  30005238 00000006 .data   @16	(MSL_C_ARM_LE.a locale.o       )
+  30005240 00000008 .data   _loc_ctyp_C	(MSL_C_ARM_LE.a locale.o       )
+  30005248 00000009 .data   @19	(MSL_C_ARM_LE.a locale.o       )
+  30005254 0000000C .data   _current_locale	(MSL_C_ARM_LE.a locale.o       )
+  30005260 0000000C .data   @18	(MSL_C_ARM_LE.a locale.o       )
+  3000526C 0000000F .data   @17	(MSL_C_ARM_LE.a locale.o       )
+  3000527C 00000010 .data   _loc_coll_C	(MSL_C_ARM_LE.a locale.o       )
+  3000528C 00000020 .data   _loc_tim_C	(MSL_C_ARM_LE.a locale.o       )
+  300052AC 00000055 .data   @21	(MSL_C_ARM_LE.a locale.o       )
+  30005301 00000086 .data   @22	(MSL_C_ARM_LE.a locale.o       )
+  30005388 000000C0 .data   char_coll_tableC	(MSL_C_ARM_LE.a locale.o       )
+  30005448 00000002 .data   @1120	(MSL_C_ARM_LE.a printf.o       )
+  3000544A 00000001 .data   @1121	(MSL_C_ARM_LE.a printf.o       )
+  3000544B 00000005 .data   @1325	(MSL_C_ARM_LE.a printf.o       )
+  30005450 00000005 .data   @1326	(MSL_C_ARM_LE.a printf.o       )
+  30005455 00000004 .data   @1327	(MSL_C_ARM_LE.a printf.o       )
+  30005459 00000004 .data   @1328	(MSL_C_ARM_LE.a printf.o       )
+  3000545D 00000005 .data   @1329	(MSL_C_ARM_LE.a printf.o       )
+  30005462 00000005 .data   @1330	(MSL_C_ARM_LE.a printf.o       )
+  30005467 00000004 .data   @1331	(MSL_C_ARM_LE.a printf.o       )
+  3000546B 00000004 .data   @1332	(MSL_C_ARM_LE.a printf.o       )
+  3000546F 00000006 .data   @1510	(MSL_C_ARM_LE.a printf.o       )
+  30005475 00000001 .data   _fdlib_version	(MSL_C_ARM_LE.a s_lib_version.o)
+  30005476 00000002 .data   @939	(MSL_C_ARM_LE.a ansi_fp.o      )
+  30005478 00000002 .data   @940	(MSL_C_ARM_LE.a ansi_fp.o      )
+  3000547A 00000002 .data   @941	(MSL_C_ARM_LE.a ansi_fp.o      )
+  3000547C 00000005 .exception @ET@Uart_Printf	(Uart.c)
+  3000547C 00000000 .exception .exception	(Uart.c)
+#>30005484          __exception_table_start__ (linker command file)
+# Exception index
+  30005484 0000009C         Exception Table Index	()
+#>30005520          __exception_table_end__ (linker command file)
+#>30005520          Image$$ZI$$Base (linker command file)
+  30005520 00000004 .bss    errno	(MSL_C_ARM_LE.a errno.o        )
+  30005524 00000004 .bss    unused	(MSL_C_ARM_LE.a float.o        )
+  30005528 00000004 .bss    signgam	(MSL_C_ARM_LE.a s_signgam.o    )
+#>3000552C          Image$$ZI$$Limit (linker command file)
+
+
+# Memory map:
+  v_addr   p_addr   size     name
+  30000000 30000000 00005070 text
+  30005070 30005070 000004C0 data
+
+# Link start time: Thu Mar 12 17:20:49 2015
+# Link end time: Thu Mar 12 17:20:49 2015

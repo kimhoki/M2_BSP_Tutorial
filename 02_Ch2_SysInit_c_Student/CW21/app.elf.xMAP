@@ -1,0 +1,56 @@
+# Link map of _start
+  1] _start (notype,global) found in crt0.s 
+   2] Main (func,global) found in Main.c 
+    3] .bss (section,local) found in Main.c 
+   2] @EX@LED_TOGGLE (object,local) found in Main.c 
+   2] @EX@LED_Port_Init (object,local) found in Main.c 
+   2] @EX@KEY_PORT_Init (object,local) found in Main.c 
+   2] @EX@Main (object,local) found in Main.c 
+   2] @EX@KEY_PORT_SCAN (object,local) found in Main.c 
+   2] @EX@LED_ON_Off (object,local) found in Main.c 
+
+# Unreferenced symbols:
+
+
+
+# .app_text
+  30000000 00000000 Init    $a	(crt0.s)
+  30000000 00000148 Init    Init	(crt0.s)
+  30000000 00000000 Init    _start	(crt0.s)
+  300000DC 00000000 Init    $d	(crt0.s)
+  30000148 00000014 .text   LED_TOGGLE	(Main.c)
+  30000148 00000000 .text   .text	(Main.c)
+  30000148 00000000 .text   $a	(Main.c)
+  3000015C 00000000 .text   $a	(Main.c)
+  3000015C 00000028 .text   LED_Port_Init	(Main.c)
+  30000184 00000090 .text   KEY_PORT_Init	(Main.c)
+  30000184 00000000 .text   $a	(Main.c)
+  30000214 000000BC .text   Main	(Main.c)
+  30000214 00000000 .text   $a	(Main.c)
+  300002D0 00000004 .text   LED_ON_Off	(Main.c)
+  300002D0 00000000 .text   $a	(Main.c)
+  300002D4 00000180 .text   KEY_PORT_SCAN	(Main.c)
+  300002D4 00000000 .text   $a	(Main.c)
+  30000428 00000000 .text   $d	(Main.c)
+#>30000458          Image$$RO$$Limit (linker command file)
+
+# .app_data
+#>30000458          Image$$RW$$Base (linker command file)
+#>30000458          __exception_table_start__ (linker command file)
+# Exception index
+  30000458 00000048         Exception Table Index	()
+#>300004A0          __exception_table_end__ (linker command file)
+#>300004A0          Image$$ZI$$Base (linker command file)
+  300004A0 00000004 .bss    temp0$38	(Main.c)
+  300004A0 00000000 .bss    .bss	(Main.c)
+  300004A4 00000004 .bss    temp1$39	(Main.c)
+#>300004A8          Image$$ZI$$Limit (linker command file)
+
+
+# Memory map:
+  v_addr   p_addr   size     name
+  30000000 30000000 00000458 text
+  30000458 30000458 00000050 data
+
+# Link start time: Wed Mar 11 09:06:22 2015
+# Link end time: Wed Mar 11 09:06:22 2015

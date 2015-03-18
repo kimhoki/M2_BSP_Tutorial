@@ -1,0 +1,61 @@
+# Link map of _start
+  1] _start (notype,global) found in crt0.s 
+   2] Main (func,global) found in Main.c 
+    3] Key_Port_Init (func,global) found in Key.c 
+    3] @EX@Key_Port_Init (object,local) found in Key.c 
+    3] @EX@Key_Get_Pressed_with_LED (object,local) found in Key.c 
+    3] @EX@Key_Wait_Get_Pressed (object,local) found in Key.c 
+    3] @EX@Key_Get_Pressed (object,local) found in Key.c 
+    3] @EX@Key_Wait_Get_Released (object,local) found in Key.c 
+   2] @EX@LED_Port_Init (object,local) found in Main.c 
+   2] @EX@LED_ON_Off (object,local) found in Main.c 
+   2] @EX@Main (object,local) found in Main.c 
+
+# Unreferenced symbols:
+
+
+
+# .app_text
+  30000000 00000000 Init    $a	(crt0.s)
+  30000000 00000148 Init    Init	(crt0.s)
+  30000000 00000000 Init    _start	(crt0.s)
+  300000DC 00000000 Init    $d	(crt0.s)
+  30000148 0000002C .text   LED_Port_Init	(Main.c)
+  30000148 00000000 .text   .text	(Main.c)
+  30000148 00000000 .text   $a	(Main.c)
+  30000174 00000068 .text   LED_ON_Off	(Main.c)
+  30000174 00000000 .text   $a	(Main.c)
+  300001DC 00000000 .text   $a	(Main.c)
+  300001DC 00000030 .text   Main	(Main.c)
+  300001F8 00000000 .text   $d	(Main.c)
+  3000020C 00000000 .text   .text	(Key.c)
+  3000020C 00000000 .text   $a	(Key.c)
+  3000020C 00000090 .text   Key_Port_Init	(Key.c)
+  3000029C 000000D4 .text   Key_Get_Pressed_with_LED	(Key.c)
+  3000029C 00000000 .text   $a	(Key.c)
+  30000370 00000000 .text   $a	(Key.c)
+  30000370 0000001C .text   Key_Wait_Get_Pressed	(Key.c)
+  3000038C 0000001C .text   Key_Wait_Get_Released	(Key.c)
+  3000038C 00000000 .text   $a	(Key.c)
+  300003A8 00000108 .text   Key_Get_Pressed	(Key.c)
+  300003A8 00000000 .text   $a	(Key.c)
+  3000048C 00000000 .text   $d	(Key.c)
+#>300004B0          Image$$RO$$Limit (linker command file)
+
+# .app_data
+#>300004B0          Image$$RW$$Base (linker command file)
+#>300004B0          __exception_table_start__ (linker command file)
+# Exception index
+  300004B0 00000060         Exception Table Index	()
+#>30000510          __exception_table_end__ (linker command file)
+#>30000510          Image$$ZI$$Base (linker command file)
+#>30000510          Image$$ZI$$Limit (linker command file)
+
+
+# Memory map:
+  v_addr   p_addr   size     name
+  30000000 30000000 000004B0 text
+  300004B0 300004B0 00000060 data
+
+# Link start time: Tue Mar 10 17:49:43 2015
+# Link end time: Tue Mar 10 17:49:43 2015
